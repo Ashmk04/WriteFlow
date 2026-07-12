@@ -59,6 +59,29 @@ src/
 └── main.jsx
 ```
 
+## 📸 Screenshots
+
+### Home Page
+
+![WriteFlow Home Page](./public/screenshots/home.png)
+
+### Login Page
+
+![WriteFlow Login Page](./public/screenshots/login.png)
+
+### Signup Page
+
+![WriteFlow Signup Page](./public/screenshots/signup.png)
+
+### Create Post
+
+![Create Post Page](./public/screenshots/addPost.png)
+
+### Post Page
+
+![Post Page](./public/screenshots/post.png)
+
+
 ## 🔐 Environment Variables
 
 Create a `.env` file in the root directory and add the following configuration:
