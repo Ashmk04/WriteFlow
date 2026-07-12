@@ -38,7 +38,7 @@ export class StorageServices{
     }
 
     getFilePreview(fileId) {
-        return this.storage.getFilePreview(
+        return this.storage.getFileView(
             conf.appWriteBucketId,
             fileId
         )      

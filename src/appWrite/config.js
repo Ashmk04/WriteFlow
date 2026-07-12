@@ -12,10 +12,10 @@ export class Service{
         this.client.setProject(conf.appWriteProjectId);
 
         this.databases = new Databases(this.client)
-        this.storage = new this.storage(this.client)
+        this.storage = new Storage(this.client)
     }
 
-    async createPost(title, slug, content, image, status, userId) {
+    async createPost({title, slug, content, image, status, userId}) {
         try {
             return await this.databases.createDocument(
                 conf.appWriteDatabaseId,
