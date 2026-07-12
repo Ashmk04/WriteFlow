@@ -24,7 +24,7 @@ export default function PostForm({ post }) {
             const file = data.image[0] ? await storageServices.uploadFile(data.image[0]) : null;
 
             if (file) {
-                service.deleteFile(post.image);
+                storageServices.deleteFile(post.image);
             }
 
             const dbPost = await service.updatePost({
