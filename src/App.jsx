@@ -1,6 +1,6 @@
 import React from "react"
 import { useState, useEffect } from "react"
-import { Header, Footer } from "./component/index"
+import { Header, Footer } from "./components/index"
 import {useDispatch} from "react-redux"
 import authService from "./appWrite/auth"
 import {login, logout} from "./store/authSlice"
@@ -12,10 +12,12 @@ function App() {
   const dispatch = useDispatch()
 
   useEffect(()=>{
-    authService.currentUser()
+    authService.getCurrentUser()
     .then((userData) => {
       if(userData) {
-        dispatch(login({userData}))
+        const plainUserData = JSON.parse(
+          JSON.stringify(userData))
+        dispatch(login({userData: plainUserData}))
       }
       else{
         dispatch(logout())
