@@ -63,23 +63,23 @@ src/
 
 ### Home Page
 
-![WriteFlow Home Page](./public/screenshots/home.png)
+![WriteFlow Home Page](./src/public/screenshots/home.png)
 
 ### Login Page
 
-![WriteFlow Login Page](./public/screenshots/login.png)
+![WriteFlow Login Page](./src/public/screenshots/login.png)
 
 ### Signup Page
 
-![WriteFlow Signup Page](./public/screenshots/signup.png)
+![WriteFlow Signup Page](./src/public/screenshots/signup.png)
 
 ### Create Post
 
-![Create Post Page](./public/screenshots/addPost.png)
+![Create Post Page](./src/public/screenshots/addPost.png)
 
 ### Post Page
 
-![Post Page](./public/screenshots/post.png)
+![Post Page](./src/public/screenshots/post.png)
 
 
 ## 🔐 Environment Variables
