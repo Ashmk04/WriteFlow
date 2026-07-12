@@ -74,7 +74,11 @@ const router = createBrowserRouter([
             element: <Post />,
         },
     ],
+    
 },
+{
+  basename: "/WriteFlow",
+}
 ])
 
 ReactDOM.createRoot(document.getElementById('root')).render(
