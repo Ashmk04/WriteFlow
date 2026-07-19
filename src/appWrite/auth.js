@@ -1,6 +1,6 @@
 import { cache } from "react";
 import conf from "../conf/conf";
-import {Account, Client, ID} from "appWrite"
+import {Account, Client, ID} from "appwrite"
 
 export class AuthService{
 
