@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link, useNavigate, useParams } from "react-router-dom";
-import service from "../appwrite/config";
-import storageServices from "../appwrite/storage";
+import service from "../appWrite/config";
+import storageServices from "../appWrite/storage";
 import { Button, Container } from "../components";
 import parse from "html-react-parser";
 import { useSelector } from "react-redux";

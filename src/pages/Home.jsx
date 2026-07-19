@@ -1,6 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import { useSelector } from "react-redux"
-import appwriteService from "../appwrite/config";
+import appwriteService from "../appWrite/config";
 import {Container, PostCard} from '../components'
 
 function Home() {

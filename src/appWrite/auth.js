@@ -1,6 +1,6 @@
 import { cache } from "react";
 import conf from "../conf/conf";
-import {Account, Client, ID} from "appwrite"
+import {Account, Client, ID} from "appWrite"
 
 export class AuthService{
 
@@ -43,7 +43,7 @@ export class AuthService{
             const user = await this.account.get()
             return JSON.parse(JSON.stringify(user))
         } catch (error) {
-            console.log("Appwrite currentUser:", error.message);
+            console.log("AppWrite currentUser:", error.message);
             return null
         }
     }
@@ -52,7 +52,7 @@ async logout() {
     try {
         return await this.account.deleteSessions()
     } catch (error) {
-        console.log("Appwrite logout:", error.message);    
+        console.log("AppWrite logout:", error.message);    
     }
 }
 
