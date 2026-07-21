@@ -3,7 +3,7 @@
 WriteFlow is a modern blogging web application built with React and Appwrite. It allows users to create accounts, log in, publish blog posts, upload featured images, edit content using a rich text editor, and manage their posts.
 
 ## 🚀 Live Demo
-🔗 https://your-project-name.vercel.app
+🔗 https://write-flow-ai22.vercel.app/
 
 ## ✨ Features
 
